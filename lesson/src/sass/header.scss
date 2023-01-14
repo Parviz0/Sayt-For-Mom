@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.header{
+    height: 100px;
+    display: flex;
+    background: linear-gradient(45deg, pink, rgb(255, 125, 147), rgb(255, 78, 108));
+    .logo{
+        // font-family: 'Lobster', cursive;
+        font-family: 'Pacifico', cursive;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            color: rgb(177, 42, 64);
+            cursor: default;
+        }
+        h3{
+            color: purple;
+            cursor: default;
+        }
+    }
+    .inHeader{
+        font-family: 'Pacifico', cursive;
+        // font-family: 'Roboto';
+        display: flex;
+        height: 30px;
+        width: 600px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 100px;
+        margin-top: 30px;
+        p{
+            cursor: pointer;
+        }
+    }
+}
